@@ -127,6 +127,7 @@ footer{
         margin-bottom: 20px;
     }
     .main_text{
+        padding: 1px;
         text-align: center;
         font-size: 1.2em;
     }
