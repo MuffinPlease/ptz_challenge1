@@ -17,5 +17,50 @@ body{
 /*Header*/
 
 /*Main*/
-
+main{
+    /*Display*/
+    display:flex;
+    padding:10px 5%;
+}
+.main_img{
+    /*Display*/
+    flex-basis: 50%;
+}
+.main_text{
+    /*Text*/
+    font-size: 1.9em;
+    font-weight: 300;
+    /*Box*/
+    padding: 10px 40px;
+    /*Display*/
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+.main_text_head{
+    /*Text*/
+    font-size: 3rem;
+    font-weight: bold;
+    /*Box*/
+    margin: 0;
+}
+.main_text_button{
+    /*Text*/
+    font-size: 1rem;
+    color:hsl(257, 40%, 49%);
+    font-weight: 500;
+    /*Box*/
+    padding: 15px 60px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(39, 39, 39);
+    /*Transition*/
+    transition: background-color 200ms ease-in-out;
+    /*display*/
+    display: inline-block;
+}
+.main_text_button:hover{
+    background-color: hsl(258, 100%, 92%);
+    cursor:pointer;
+}
 /*Footer*/
