@@ -30,14 +30,18 @@ main{
     /*Display*/
     display:flex;
     padding:10px 5%;
+    /*Text*/
+    font-size: 2.1em;
 }
 .main_img{
     /*Display*/
     flex-basis: 50%;
 }
+.main_img img{
+    width: 100%
+}
 .main_text{
     /*Text*/
-    font-size: 1.9em;
     font-weight: 300;
     /*Box*/
     padding: 10px 40px;
@@ -48,14 +52,14 @@ main{
 }
 .main_text_head{
     /*Text*/
-    font-size: 3rem;
+    font-size: 2.4em;
     font-weight: bold;
     /*Box*/
     margin: 0;
 }
 .main_text_button{
     /*Text*/
-    font-size: 1rem;
+    font-size: 0.8em;
     color:hsl(257, 40%, 49%);
     font-weight: 500;
     /*Box*/
@@ -77,10 +81,11 @@ main{
 footer{
     /*display*/
     display: flex;
-    flex-basis: 100%;
     justify-content: end;
+    flex-basis: 100%;
     /*Box*/
     padding: 0 100px;
+    /*Flag*/
 }
 
 .footer_icon{
@@ -95,4 +100,40 @@ footer{
 
 .footer_icon:hover{
     cursor: pointer;
+}
+
+/*Media Query*/
+@media (max-width: 1100px){
+    /*Change main sizes*/
+    main{
+        /*Display*/
+        align-items: center;
+        /*Text*/
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 660px){
+    /*Header*/
+    header{
+        padding: 40px 30px;
+    }
+    /*Main*/
+    main{
+        /*Display*/
+        flex-direction: column;
+    }
+    .main_img{
+        margin-bottom: 20px;
+    }
+    .main_text{
+        text-align: center;
+        font-size: 1.4em;
+    }
+    /*Footer*/
+    footer{
+        padding: 0;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
 }
