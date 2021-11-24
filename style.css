@@ -114,6 +114,10 @@ footer{
 }
 
 @media (max-width: 660px){
+    body{
+        background-image: url("images/bg-mobile.svg");
+        background-size: cover;
+    }
     /*Header*/
     header{
         padding: 15px 30px;
