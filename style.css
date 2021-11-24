@@ -1,4 +1,3 @@
-
 /*Body*/
 body{
     /*Text*/
@@ -13,7 +12,17 @@ body{
 }
 
 /*Header*/
-
+header{
+    /*Box*/
+    padding: 40px 60px;
+    
+    /*Display*/
+    display: flex;
+    flex-basis: 100%;
+}
+header img{
+    width: 22em;
+}
 /*Main*/
 
 /*Footer*/
