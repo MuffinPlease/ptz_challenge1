@@ -116,7 +116,7 @@ footer{
 @media (max-width: 660px){
     /*Header*/
     header{
-        padding: 40px 30px;
+        padding: 15px 30px;
     }
     /*Main*/
     main{
@@ -128,12 +128,18 @@ footer{
     }
     .main_text{
         text-align: center;
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     /*Footer*/
     footer{
         padding: 0;
         justify-content: center;
         margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 376px){
+    main{
+        font-size: 0.7rem;
     }
 }
